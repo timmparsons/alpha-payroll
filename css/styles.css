@@ -1,0 +1,321 @@
+* {
+  margin: 0; 
+  padding: 0; 
+}
+
+html {
+	height: 100%;
+  width: 100%;	
+}
+
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+  padding: 0px;
+  width: 100%;	 
+}
+
+section, footer {
+  background-color: #475056;
+  /* padding-top: 50px; */
+}
+
+hr {
+  margin: 0;
+}
+
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+p, li {
+  color: #a5b3bc;
+  font-family: "Open Sans",Verdana,Arial,Helvetica,sans-serif;
+  margin: 0;
+}
+
+.button {
+    background-color: #79b519;
+
+}
+
+/* Navigation */
+
+.navbar {
+  margin-bottom: 0;
+}
+
+
+/* Header */
+
+header {
+  background-color: white;
+  height: 100%
+  line-height: 1;
+  text-align: center;
+}
+
+.money-tree {
+  height: 250px;
+}
+ 
+.header-title {
+  color: black;
+  font-size: 60px;
+}
+
+.header-para{
+  color: black;
+  padding-top: 25px;
+  vertical-align: inherit;
+}
+
+#btn-header {
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 18px;
+  padding: 10px ;
+  text-align: center;
+  text-decoration: none;
+}
+
+#btn-header:hover {
+  background-color: #3c8c40;
+}
+
+
+
+/* Industry Icons */
+
+.industry-cont {
+  background-color: #79b519;
+}
+
+.industry-icons {
+  padding-bottom: 100px;
+}
+
+.industry-icon {
+  padding-bottom: 20px;  
+  width:60px;
+}
+
+.industry {
+  text-align: center;
+  padding: 40px 0;
+}
+
+
+/* Specialize section */
+
+.specialize {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.section-header {
+  font-size: 40px;
+}
+
+.industries {
+  color: #a5b3bc;
+  font-size: 17px;
+  padding: 0 370px;
+}
+
+
+/* Services We Offer*/
+
+.services-container {
+  width: 100%;
+  padding: 0 0 40px;
+}
+
+.services-offered {
+  text-align: center;
+  width: 50%;
+}
+
+.service {
+  font-size: 25px;
+}
+
+.paystub-para {
+  padding: 0 100px;
+}
+
+
+/*New business */
+
+.new-business-list {
+  color: #646a7d;
+  list-style: none;
+}
+
+/*Pricing */
+
+.pricing {
+  padding-bottom: 40px;
+}
+
+.columns {
+  float: left;
+  padding: 8px;
+  width: 25%;
+
+}
+
+.price {
+  border: 1px solid #eee;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  -webkit-transform:scale(1.05); /*Safari and Chrome */
+  -moz-transform:scale(1.05); /* Firefox */
+  -ms-transform:scale(1.05); /* IE 9 */
+  -o-transform:scale(1.05); /* Opera */
+   transform:scale(1.05);
+}
+
+.price .header {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+  line-height: 1.9;  
+  }
+
+  .extra-info {
+    padding-top: 20px;
+  }
+
+
+/* Forms */
+
+.forms {
+  background-color: #eff4ef;
+  padding: 40px;
+  width: 100%;
+}
+
+#forms {
+  color: #79b519;
+}
+
+.form-cont {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+.form-cont .form {
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 18px;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.form-cont .form:hover {
+  background-color: #3c8c40;
+  -webkit-transition-duration: 1s; /* Safari */
+  transition-duration: 1s;
+}
+
+
+/* Footer */
+
+.footer {
+  background-color: black;
+  padding: 75px 0 20px;
+  width: 100%;
+}
+
+.address-box {
+  color: white;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.address-h3 {
+  color: #79b519;
+} 
+
+#copyright {
+  color: #565b56;
+  text-align: center;
+}
+
+.copyright-section {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.currency {
+  padding-right: 25px; 
+}
+
+.map {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 990px) {
+  .industries {
+    padding: 0;
+  }
+
+  .services-offered {
+    width: 100%;
+  }
+
+  .paystub {
+    padding-top: 25px;
+  }
+
+  .columns {
+        width: 100%;
+    }
+
+  .form-cont {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .form {
+    margin-bottom: 10px;
+  }
+
+  .map {
+     margin: auto;
+  }
+}
+
